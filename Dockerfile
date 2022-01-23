@@ -13,6 +13,7 @@ RUN apt install -y python3-pip
 #install robotframework and seleniumlibrary
 RUN pip3 install robotframework
 RUN pip3 install robotframework-seleniumlibrary
+RUN pip3 install --upgrade robotframework-impansible
 
 #The followig are needed for Chrome and Chromedriver installation
 RUN apt-get install -y xvfb
